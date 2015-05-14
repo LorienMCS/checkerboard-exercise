@@ -49,3 +49,40 @@ for (var i = 0; i < 81; i++) {
     color1+=3;
     color3-=8;
 }
+
+
+/* This checkboard flashes off once, and doesn't come back on;
+I don't know why. */
+
+for (var i = 0; i < 81; i++) {
+    randNbr1 = Math.floor(Math.random() * 255);
+    randNbr2 = Math.floor(Math.random() * 255);
+    randNbr3 = Math.floor(Math.random() * 255);
+    randColor = "rgb(" + randNbr1 + "," + randNbr2 + "," + randNbr3 + ")";
+    var square = document.createElement("div");
+    square.style.width = "11.1%";
+    square.style.paddingBottom = "11.1%";
+    square.style.float = "left";
+    square.className = "flash";        
+    square.style.backgroundColor = randColor;              
+    document.body.appendChild(square);
+}
+function flash() {
+    var flashArr = document.querySelectorAll(".flash");
+    for (var i=0; i < flashArr.length; i++) {       
+        randNbr1 = Math.floor(Math.random() * 255);
+        randNbr2 = Math.floor(Math.random() * 255);
+        randNbr3 = Math.floor(Math.random() * 255);
+        randColor = "rgb(" + randNbr1 + "," + randNbr2 + "," + randNbr3 + ")";
+        flashArr[i].setAttribute("style","color: " + randColor + ";");                   
+    }
+}
+
+setInterval(flash, 2000);
+
+
+/* Did not have time to do audio. */
+
+
+
+
