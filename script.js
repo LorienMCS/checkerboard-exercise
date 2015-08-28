@@ -50,10 +50,6 @@ for (var i = 0; i < 81; i++) {
     color3-=8;
 }
 
-
-/* This checkboard flashes off once, and doesn't come back on;
-I don't know why. */
-
 for (var i = 0; i < 81; i++) {
     randNbr1 = Math.floor(Math.random() * 255);
     randNbr2 = Math.floor(Math.random() * 255);
@@ -79,10 +75,3 @@ function flash() {
 }
 
 setInterval(flash, 2000);
-
-
-/* Did not have time to do audio. */
-
-
-
-
