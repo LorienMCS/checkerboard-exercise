@@ -1,5 +1,7 @@
 #####:sunny: :palm_tree: :evergreen_tree:[Demo of my completed assignment](http://lorienmcs.github.io/checkerboard-exercise/):evergreen_tree: :palm_tree: :sunny:
 
+#####This was a project for the third week of the Full Stack Program at [Galvanize](http://www.galvanize.com/courses/full-stack/).
+
 #DOM Manipulation Exercise
 
 As always, fork and clone this repo.  Submit the link to your fork when you're done.
@@ -50,11 +52,3 @@ On a new branch called `randomcolors`, implement the following changes:
 On a new branch called `gradient`, write code to color the tiles using some sort of gradient.  It does not need to look exactly like the image below, but it should have some sort of increasing/decreasing color values.
 
 ![Screen Shot 2015-05-12 at 10.17.24 PM.png](https://draftin.com:443/images/29114?token=rfd8xRPfnvVY9rkIhhzxIl8b3vWWgz6_sprT3mzf2K2uvZ39L9w6pHD4JlE8BxU6vmkDCTmxzm0kw7m2gbSNhBw) 
-
-###Flashing Colors
-
-On a new branch called `flashing`, write code to change each tile's color to a new random color every 2 seconds. 
-
-###Bonus: Audio
-
-Get some audio playing to accompany your trippy visuals, using only JS.  No editing the HTML!
