@@ -1,3 +1,5 @@
+#####:sunny: :palm_tree: :evergreen_tree:[Demo of my completed assignment](http://lorienmcs.github.io/checkerboard-exercise/):evergreen_tree: :palm_tree: :sunny:
+
 #DOM Manipulation Exercise
 
 As always, fork and clone this repo.  Submit the link to your fork when you're done.
