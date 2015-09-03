@@ -2,9 +2,7 @@
 
 #####This was a project for the third week of the Full Stack Program at [Galvanize](http://www.galvanize.com/courses/full-stack/).
 
-#DOM Manipulation Exercise
-
-As always, fork and clone this repo.  Submit the link to your fork when you're done.
+###DOM Manipulation Exercise
 
 ###Checkerboard
 
